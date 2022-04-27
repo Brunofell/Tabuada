@@ -1,0 +1,6 @@
+numero = int(input("insira um número para a tabuada:\n>>>>"))
+cont = 0
+for cont in range(10):
+    cont += 1
+    resultado = numero * cont
+    print('{} x {} = {}'.format(numero, cont, resultado))
